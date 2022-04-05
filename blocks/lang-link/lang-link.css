@@ -1,0 +1,11 @@
+.lang-link {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 6px;
+}
+@media all and (max-width: 425px){
+    .lang-link{
+        margin-bottom: 8px;
+    }
+}
