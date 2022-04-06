@@ -1,5 +1,5 @@
-.link__active{
+.link-active{
+    color: #FFFFFF;
     margin-right: 18px;
     text-decoration-line: underline;
-    color: #FFFFFF;
 }
