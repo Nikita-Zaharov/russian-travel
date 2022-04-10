@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendor/normalize.css">
     <link rel="stylesheet" href="pages/index.css">
     <title>Russian-travel</title>
 </head>
@@ -12,9 +11,9 @@
   <div class="page">
     <header class="header">
       <img class="logo" src="images/header-logo.svg" alt="Лого России">
-      <ul class="lang-link">
-        <li class="lang-link__item"><a class="link-active" href="#">Ru</a></li>
-        <li class="lang-link__item"><a class="link-inactive" href="#">En</a></li>
+      <ul class="lang-list">
+        <li class="lang-list__item"><a class="lang-list__link lang-list__link_active" href="#">Ru</a></li>
+        <li class="lang-list__item"><a class="lang-list__link" href="#">En</a></li>
       </ul>
     </header>
      <main class="content">
@@ -35,7 +34,7 @@
           <li class="intro__list-item">Аэропортов  <span class="intro__list-number">241</span></li>
         </ul>
       </section>
-      <div class="photo-grid">
+      <section class="photo-grid">
         <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Поезд">
         <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Заснеженные горы">
         <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Туман">
@@ -48,8 +47,8 @@
         <img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
         <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Байкальские горы">
         <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Туманные горы">
-      </div>
-      <div class="places">
+      </section>
+      <section class="places">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
@@ -114,7 +113,7 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
         </article>
-      </div>
+      </section>
       <section class="cover">
         <a class="overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До Байкала «на собаках»</h2>

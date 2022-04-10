@@ -1,5 +1,4 @@
-.link-active{
-    color: #FFFFFF;
+.lang-list__link_active{
     margin-right: 18px;
     text-decoration-line: underline;
 }

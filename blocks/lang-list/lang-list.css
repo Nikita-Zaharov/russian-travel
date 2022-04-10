@@ -1,11 +1,11 @@
-.lang-link {
+.lang-list {
     display: flex;
     list-style: none;
     padding: 0;
     margin-bottom: 6px;
 }
 @media all and (max-width: 425px){
-    .lang-link{
+    .lang-list{
         margin-bottom: 8px;
     }
 }
